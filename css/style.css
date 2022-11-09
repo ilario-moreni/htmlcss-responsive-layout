@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-
+/* sotto i 576px */
                                 /* commons */
 
 .col{
@@ -33,18 +33,17 @@ section{
 
 header{
     background-color: #0084FD;
-    height: 100px;
-    
+    padding: 20px 0;
 }
 
 .header-container{
     justify-content: space-between;
 }
 
-.logo-container, nav{
-    background-color: red;
-    height: 50px;
-    width: 30%;
+
+.menu, .logo{
+    font-size: 40px;
+    color:white;
 }
 
 
