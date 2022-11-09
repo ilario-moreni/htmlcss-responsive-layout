@@ -2,25 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* sotto i 576px */
                                 /* commons */
 
 .col{
-    height: 450px;
     background-color: green;
     width: 100%;
     border-bottom: 5px solid red;
 }
 
-section{
-    background-color: purple;
-    border-bottom: 5px solid orange;
-}
+
 
 .container{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     display: flex;
 }
@@ -28,6 +25,11 @@ section{
 .flex-direction-column{
     flex-direction: column;
 }
+
+h3{
+    font-size: 28px;
+}
+
 
                                 /* header */
 
@@ -49,8 +51,58 @@ header{
 
                                 /* main */
 
-.jumbo-section{
+/* jumbo */
 
+.jumbo-section{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.jumbo-section .col{
+    background-color: #B5DDFF;
+    border-radius: 40px;
+    margin: 20px 0;
+    border: none;
+    padding: 30px;
+    text-align: center;
+}
+
+#bigger-jumbo-col{
+    text-align: left;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.jumbo-icon{
+    font-size: 100px;
+    color: #0084FD;
+}
+
+.jumbo-section h3{
+    color: #0084FD;
+    margin: 20px 0;
+}
+
+.jumbo-p{
+    font-weight: 500;
+    color:#4c4c4c;
+}
+
+.blue-button{
+    display: inline-block;
+    background-color: #0084FD;
+    border-radius: 25px;
+    margin: 40px 0;
+    padding: 10px 60px;
+    font-size: 20px;
+    color:white;
+}
+
+#phone-img{
+    display: block;
+    vertical-align: middle;
+    width: 75%;
+    margin: 0 auto;
 }
 
 
@@ -59,6 +111,7 @@ header{
 footer{
     background-color: #333333;
     height: 200px;
+
 }
 
 
