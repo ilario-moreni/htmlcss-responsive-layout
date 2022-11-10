@@ -288,6 +288,7 @@ header{
 
 .about-us-section h2{
     font-size: 48px;
+    margin-bottom: 30px;
 }
 
 
@@ -372,3 +373,36 @@ footer a{
 }
 
 
+/* media queries */
+
+/* tablet */
+
+@media screen and (min-width: 768px){
+    /* commons */
+
+    h3{
+        font-size: 20px;
+    }
+
+    /* jumbo section */
+    .jumbo-section .container{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .jumbo-section .col{
+        width: calc((100% / 3) - 1rem);
+        margin: 1rem 0;
+        padding: 20px;
+    }
+
+    #bigger-jumbo-col{
+        width: calc(((100% / 3) * 2) - 0.5rem);
+    }
+
+    #phone-img{
+        margin: 0;
+    }
+
+}
