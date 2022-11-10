@@ -424,4 +424,25 @@ footer a{
         align-self: center;
     }
 
+    /* benefit section */
+
+    .benefit-section .container{
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .benefit-section h2{
+        width: 100%;
+        text-align: left;
+    }
+
+    .benefit-section .col{
+        width: calc(50% - 1rem);
+        margin: 1rem 0;
+    }
+
+    .card-number{
+        font-size: 64px;
+    }
 }
