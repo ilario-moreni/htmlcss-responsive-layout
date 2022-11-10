@@ -528,6 +528,7 @@ footer a{
     /* common */
 
     .container{
+        width: 75%;
         max-width: 1060px;
     }
 
@@ -601,4 +602,25 @@ footer a{
         width: 200px;
         height: 200px;
     }
+
+    /* benefit section */
+
+    .benefit-section h2{
+        text-align: center;
+    }
+
+    .benefit-section .col{
+        width: calc((100% / 3) - 1rem);
+        margin: 1rem 0;
+    }
+
+    .benefit-text{
+        font-size: 14px;
+    }
+
+    .purple-button{
+        transform: scale(0.7);
+    }
+
+
 }
