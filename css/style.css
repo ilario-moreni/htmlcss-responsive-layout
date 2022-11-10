@@ -622,5 +622,21 @@ footer a{
         transform: scale(0.7);
     }
 
+    /* about-us section */
 
+    .about-us-section h3 {
+        font-size: 20px;
+    }
+
+    .purple-quote{
+        font-size: 60px;
+    }
+
+    .about-us-section p, .about-us-button{
+        font-size: 14px;
+    }
+    
+    .about-us-section h2 {
+        font-size: 48px;
+    }
 }
