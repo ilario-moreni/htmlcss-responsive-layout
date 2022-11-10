@@ -359,9 +359,16 @@ header{
 
 footer{
     background-color: #333333;
-    height: 200px;
-
+    padding: 40px 0;
+    color:white;
 }
 
+footer .text-margin{
+    margin-bottom: 100px;
+}
+
+footer a{
+    color:#9792E4
+}
 
 
