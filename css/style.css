@@ -588,4 +588,17 @@ footer a{
     .col-40{
         width: 40%;
     }
+
+    /* testimonial section */
+
+
+    .testimonial-text {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .circle-image{
+        width: 200px;
+        height: 200px;
+    }
 }
