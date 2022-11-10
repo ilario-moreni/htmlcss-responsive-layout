@@ -469,4 +469,18 @@ footer a{
     .about-us-section p{
         line-height: 2.5em;
     }
+
+    /* trial section */
+
+    .trial-section h3{
+        font-size: 48px;
+    }
+
+    .trial-section h2{
+        font-size: 80px;
+    }
+
+    .trial-button{
+        padding: 25px 60px;
+    }
 }
