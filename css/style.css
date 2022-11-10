@@ -445,4 +445,28 @@ footer a{
     .card-number{
         font-size: 64px;
     }
+
+    /* about-us section */
+
+    .about-us-section .container{
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .about-us-section .col{
+        width:auto;
+    }
+
+    .about-us-section h2{
+        font-size: 64px;
+    }
+
+    .about-us-section h3{
+        font-size: 28px;
+    }
+
+    .about-us-section p{
+        line-height: 2.5em;
+    }
 }
