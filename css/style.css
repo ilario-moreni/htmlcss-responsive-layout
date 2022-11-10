@@ -666,3 +666,16 @@ footer a{
         font-size: 12px;
     }
 }
+
+/* hover */
+
+
+.blue-button:hover, .purple-circle:hover, .purple-button:hover, .about-us-button:hover, .nav-button:hover{
+    filter: brightness(1.2);
+    box-shadow: 0px 5px 8px 1px grey;
+}
+
+.trial-button:hover{
+    box-shadow: 0px 0px 30px 5px #FDC15F;
+    transform: scale(1);
+}
