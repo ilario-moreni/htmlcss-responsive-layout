@@ -562,4 +562,30 @@ footer a{
     .col-60{
         width: 60%;
     }
+
+    /* planning section */
+
+    .planning-section .container{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
+    .planning-section p{
+        font-size: 12px;
+    }
+
+    .planning-section h2{
+        font-size: 24px;
+    }
+
+    .col-50{
+        width: 50%;
+    }
+
+    .col-40{
+        width: 40%;
+    }
 }
