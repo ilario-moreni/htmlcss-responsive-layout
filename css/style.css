@@ -635,8 +635,26 @@ footer a{
     .about-us-section p, .about-us-button{
         font-size: 14px;
     }
-    
+
     .about-us-section h2 {
         font-size: 48px;
+    }
+
+    /* trial section */
+
+    .trial-section h2{
+        font-size: 64px;
+    }
+
+    .trial-section h3{
+        font-size: 36px;
+    }
+
+    .trial-section p{
+        font-size: 14px;
+    }
+
+    .trial-button{
+        transform: scale(0.8);
     }
 }
