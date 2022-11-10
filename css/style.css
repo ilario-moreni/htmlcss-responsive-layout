@@ -483,4 +483,11 @@ footer a{
     .trial-button{
         padding: 25px 60px;
     }
+
+    /* footer */
+
+    footer .container{
+        width: 55%;
+        font-size: 14px;
+    }
 }
