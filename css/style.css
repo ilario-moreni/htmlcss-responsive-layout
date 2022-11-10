@@ -385,6 +385,7 @@ footer a{
     }
 
     /* jumbo section */
+
     .jumbo-section .container{
         flex-direction: row;
         justify-content: space-between;
@@ -409,6 +410,18 @@ footer a{
 
     .planning-section h2{
         font-size: 56px;
+    }
+
+    /* testimonial section */
+
+    .purple-cards{
+        display: flex;
+        text-align: left;
+        gap: 2rem;
+    }
+
+    .testimonial-speech-and-name{
+        align-self: center;
     }
 
 }
