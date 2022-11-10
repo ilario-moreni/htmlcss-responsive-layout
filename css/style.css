@@ -278,6 +278,7 @@ header{
 
 .about-us-section{
     margin: 80px 0;
+    font-weight: 500;
 }
 
 .about-us-section h2, .about-us-section h3{
@@ -316,6 +317,44 @@ header{
     margin-top: 30px;
 }
 
+/* trial section */
+
+.trial-section{
+    padding: 60px 0;
+    background-color: #9792E4;
+    color:white;
+}
+
+.trial-head{
+    color: lightgray;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.trial-section h2{
+    margin: 40px 0;
+    font-size: 48px;
+    color: #FDC15F;
+}
+
+.trial-button{
+    background-color: white;
+    font-size: 18px;
+    color: #9792E4;
+    font-weight: 500;
+    padding: 20px 60px;
+    border-radius: 100px;
+    width: 300px;
+    margin: 40px auto;
+}
+
+.legal-info{
+    font-size: 14px;
+}
+
+.legal-info a{
+    color:white;
+}
                                 /* footer */
 
 footer{
